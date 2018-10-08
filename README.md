@@ -1,22 +1,22 @@
 solr-dataimport-scheduler
 =========================
 
-Schedules recurring data imports from  sources into Apache Solr
+# Schedules recurring data imports from  sources into Apache Solr
 
 solr-dataimport-scheduler-7.4.0.jar
 
 A scheduler for performing solr data imports.
 
-Used for version solr 7.4
+### Used for version solr 7.4
 
 Need to additional jar files into solr webapp lib and jetty server lib.
-quartz-2.3.0.jar
-quartz-jobs-2.3.0.jar
+- quartz-2.3.0.jar
+- quartz-jobs-2.3.0.jar
 
-into server lib:
+Into server lib:
 
-fluent-hc-4.5.6.jar
-solr-dataimport-scheduler-7.4.0.jar
+- fluent-hc-4.5.6.jar
+- solr-dataimport-scheduler-7.4.0.jar
 
 
 Also add solr home into config properties file or inital solr resource loader will not work ok.
@@ -55,6 +55,6 @@ triggers (i.e., the schedule) as described at http://quartz-scheduler.org/docume
 
 USED :
 Apache Solr DataImportHandler Scheduler From Google Code.
-https://wiki.apache.org/solr/DataImportHandler#Scheduling
-https://code.google.com/archive/p/solr-data-import-scheduler/
+- https://wiki.apache.org/solr/DataImportHandler#Scheduling
+- https://code.google.com/archive/p/solr-data-import-scheduler/
 

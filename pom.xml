@@ -12,7 +12,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 	<url>https://github.com/loc-rdc/solr-dataimport-scheduler</url>
 
 	<properties>
-		<quartz>2.3.0</quartz>
+		<quartz>2.3.2</quartz>
 	</properties>
 	<developers>
 		<developer>
